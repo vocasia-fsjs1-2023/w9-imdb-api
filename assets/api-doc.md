@@ -13,7 +13,7 @@ CRUD Movie
 - `PUT /movie/:id`
 - `DELETE /movie/:id`
 
-CRUD Games
+CRUD Review
 
 - `POST /review`
 - `GET /review`
@@ -261,11 +261,11 @@ Response:
 }
 ```
 
-### DELETE /genre/:id
+### DELETE /review/:id
 
 description:
-delete single genre
-when deleting genre that is used in at least one games, the on delete association should also delete the many to many relationship
+delete single review
+when deleting review that is used in at least one movies, the on delete association should also delete the one to many relationship
 
 Request:
 
