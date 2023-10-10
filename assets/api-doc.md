@@ -81,6 +81,16 @@ Response:
 description:
 get detail movie Left join to its review
 
+Request:
+
+- query param:
+
+```json
+{
+  "id": 1
+}
+```
+
 Response:
 
 - status: 200
