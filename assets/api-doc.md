@@ -10,6 +10,7 @@ CRUD Movie
 
 - `POST /movie`
 - `GET /movie`
+- `GET /movie/:id`
 - `PUT /movie/:id`
 - `DELETE /movie/:id`
 
@@ -72,6 +73,27 @@ Response:
       "updatedAt": "2023-10-10T04:39:48.537Z"
     }
   ]
+}
+```
+
+### GET /movie/:id
+
+description:
+get detail movie Left join to its review
+
+Response:
+
+- status: 200
+- body:
+
+```json
+{
+   "id": 1,
+   "title": "Ice Cold",
+   "description": "Pembunuhan Jessica Mirna",
+   "createdAt": "2023-10-10T04:39:48.537Z",
+   "updatedAt": "2023-10-10T04:39:48.537Z",
+   "review": []
 }
 ```
 
