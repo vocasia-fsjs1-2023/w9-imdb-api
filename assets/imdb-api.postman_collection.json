@@ -211,7 +211,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"title\": \"MENCENGANGKAN\",\n  \"description\": \"dari documentary ini malah makin curiga sama ayahnya mirna, karna dari kasus ini dia doang yang diuntungin, ya ga sih???\",\n  \"rating\": 10\n}",
+							"raw": "{\n  \"title\": \"MENCENGANGKAN\",\n  \"description\": \"dari documentary ini malah makin curiga sama ayahnya mirna, karna dari kasus ini dia doang yang diuntungin, ya ga sih???\",\n  \"rating\": 4\n}",
 							"options": {
 								"raw": {
 									"language": "json"
