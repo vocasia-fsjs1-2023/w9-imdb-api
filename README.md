@@ -64,6 +64,10 @@ Tambahkan fungsional pada models dengan hooks n validasi berikut:
 
 - tambahkan validasi input tidak boleh null atau string kosong
 
+-- kolom rating pada table review
+
+- tambahkan validasi input tidak boleh kurang dari 0 dan lebih dari 5
+
 ### 6. Sequelize Association
 
 Tambahkan association pada models movie dengan review, dengan asumsi satu movie bisa punya banyak review
