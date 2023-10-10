@@ -44,7 +44,7 @@ Untuk detail endpoint requirement dapat dilihat pada folder assets/api-doc.md da
 
 ### 4. MIGRATION
 
-Pada requirement ini kalian diminta untuk melakukan migrasi database todo app menggunakan sequelize cli dan tidak diperbolehkan mengubah secara langsung table/kolom/tipe data melalui gui atau psql. Untuk detailnya akan dijelaskan oleh mentor dan berikut referensinya : https://sequelize.org/docs/v6/other-topics/migrations/
+Pada requirement ini kalian diminta untuk melakukan migrasi database movie app menggunakan sequelize cli dan tidak diperbolehkan mengubah secara langsung table/kolom/tipe data melalui gui atau psql. Untuk detailnya akan dijelaskan oleh mentor dan berikut referensinya : https://sequelize.org/docs/v6/other-topics/migrations/
 
 ### 5. SEEDER
 
