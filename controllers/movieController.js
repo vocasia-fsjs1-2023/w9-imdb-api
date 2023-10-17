@@ -1,4 +1,4 @@
-const { Movie } = require('../models');
+const { Movie, Review } = require('../models');
 
 class Controller {
     static addMovie(req, res) {
@@ -20,7 +20,7 @@ class Controller {
     static async getUser(req, res) {
         let respon;
         try {
-            const movie = await Movie.findAll();
+            const movie = await Movie.findAll({ include: Review }); 
             respon = movie;
         } catch (error) {
             respon = 'Error';
