@@ -17,18 +17,6 @@ app.get('/', function (req, res) {
 
 app.use(routers);
 
-// PUT Movie
-app.put('/movie/:id', MovieController.putUser);
-
-// DELETE Movie
-app.delete('/movie/:id', MovieController.delUser);
-
-// DELETE Review
-app.delete('/review/:id', ReviewController.delReview);
-
-// PUT Review
-app.put('/review/:id', ReviewController.putReview);
-
 app.listen(3000, function () {
     console.log('Server running on port 3000');
 });
