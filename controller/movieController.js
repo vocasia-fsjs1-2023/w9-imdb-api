@@ -1,4 +1,3 @@
-const { Model, where } = require("sequelize");
 const { Movie, Review } = require("../models")
 
 class Controller {

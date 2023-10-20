@@ -1,5 +1,4 @@
 const { Review, Movie } = require("../models");
-const review = require("../models/review");
 
 class Controller {
     static async addReview (req, res) {
