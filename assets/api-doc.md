@@ -97,25 +97,24 @@ Response:
 - body:
 
 ```json
-
+{
+  "id": 1,
+  "title": "ICECOLD",
+  "description": "TESTING",
+  "createdAt": "2022-08-03T05:38:39.000Z",
+  "updatedAt": "2022-08-03T05:38:39.000Z",
+  "Reviews": [
     {
-        "id": 1,
-        "title": "ICECOLD",
-        "description": "TESTING",
-        "createdAt": "2022-08-03T05:38:39.000Z",
-        "updatedAt": "2022-08-03T05:38:39.000Z",
-        "Reviews": [
-            {
-                "id": 1,
-                "title": "Mencengangkan!",
-                "description": "Gila sih untuk bisa ungkit lagi kasus ini",
-                "rating": 5,
-                "createdAt": "2022-08-03T05:38:39.000Z",
-                "updatedAt": "2022-08-03T05:38:39.000Z",
-                "MovieId": 1
-            }
-        ]
+      "id": 1,
+      "title": "Mencengangkan!",
+      "description": "Gila sih untuk bisa ungkit lagi kasus ini",
+      "rating": 5,
+      "createdAt": "2022-08-03T05:38:39.000Z",
+      "updatedAt": "2022-08-03T05:38:39.000Z",
+      "MovieId": 1
     }
+  ]
+}
 ```
 
 ### PUT /movie/:id
