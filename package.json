@@ -6,5 +6,23 @@
   },
   "devDependencies": {
     "sequelize-cli": "^6.6.1"
-  }
+  },
+  "name": "w9-imdb-api",
+  "description": "Pada Tugas ini, kalian diminta untuk membuat server backend baru, dengan migration dilakukan secara manual menggunakan sequelize-cli dengan mengikuti arahan dari API-doc",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vocasia-fsjs1-2023/w9-imdb-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vocasia-fsjs1-2023/w9-imdb-api/issues"
+  },
+  "homepage": "https://github.com/vocasia-fsjs1-2023/w9-imdb-api#readme"
 }
