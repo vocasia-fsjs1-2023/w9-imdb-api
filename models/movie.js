@@ -15,9 +15,21 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Movie.init({
-    title: DataTypes.STRING,
-    description: DataTypes.TEXT
-  }, {
+    title: {
+      type: DataTypes.STRING(255), // Batasan panjang maksimal 255 karakter
+      allowNull: false,
+      validate: {
+        notEmpty: true, // Tidak boleh kosong
+      },
+    },
+    description: { 
+      type: DataTypes.TEXT,
+      allowNull: false,
+    validate: {
+      notEmpty: true, // Tidak boleh kosong
+    },
+  },
+}, {
     sequelize,
     modelName: 'Movie',
   });

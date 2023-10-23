@@ -17,8 +17,16 @@ module.exports = (sequelize, DataTypes) => {
   Review.init({
     title: DataTypes.STRING,
     description: DataTypes.TEXT,
-    rating: DataTypes.INTEGER,
-    movieId: DataTypes.INTEGER
+    rating: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        isInt: true, // Harus integer
+        min: 0, // Tidak boleh kurang dari 0
+        max: 5, // Tidak boleh lebih dari 5
+      },
+    },
+    movieId: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'Review',
